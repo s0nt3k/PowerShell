@@ -51,7 +51,7 @@ Function Show-ProgressBar {
         Author:...... s0nt3k
         E-Mail:...... s0nt3k@protonmail.com
         Date:........ January 6, 2025
-        PS1FIdN:..... 771-01-0001
+        PS1FIdN:..... 771343-100-1000
         Version:..... 1.0.5021
     #>
     
