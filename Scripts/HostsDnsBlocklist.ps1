@@ -1,3 +1,23 @@
+<#
+.SYNOPSIS
+    This PS1 script is used managing the Windows Hosts File
+
+.DESCRIPTION
+    This PS1 Script displays an interactive menu that allows you to quickly and easily download a maintained Telemetry
+    DNS-Blocklist and add the DNS-Blocklist to the Windows Hosts File.
+
+
+.EXAMPLE
+ 
+
+.NOTES
+    Author:......... s0nt3k
+    E-Mail:......... s0nt3k@protonmail.com
+    Date:........... January 6, 2025
+    SIdN:........... 7436100-1000
+    Version:........ 1.0.5021
+#>
+
 Function Set-GlobalVarables {
 
 Clear-Host
