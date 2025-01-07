@@ -155,6 +155,37 @@ function Copy-AndChangeDirectory {
     }
 } # End: Copy-AndChangeDirectory
 
+
+function Copy-AndChangeDirectory {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory=$false)]
+        [string]$SourceFilePath = "./HostBlocking.ps1",
+
+        [Parameter(Mandatory=$false)]
+        [string]$DestinationDirectory = "C:\xTekFolder\Hosts-Script"
+    )
+
+    try {
+        # Ensure the destination directory exists, create it if not
+        if (-not (Test-Path -Path $DestinationDirectory -PathType Container)) {
+            New-Item -ItemType Directory -Path $DestinationDirectory -Force | Out-Null
+            Write-Host "Created directory: $DestinationDirectory" -ForegroundColor Green
+        }
+
+        # Copy the file to the destination directory
+        Copy-Item -Path $SourceFilePath -Destination $DestinationDirectory -Force
+        Write-Host "File '$SourceFilePath' copied to '$DestinationDirectory'" -ForegroundColor Green
+
+        # Change the current working directory
+        Set-Location -Path $DestinationDirectory
+        Write-Host "Current working directory changed to '$DestinationDirectory'" -ForegroundColor Green
+    }
+    catch {
+        Write-Host "An error occurred: $_" -ForegroundColor Red
+    }
+}
+
 function Ensure-DirectoryExists {
     [CmdletBinding()]
     param (
@@ -176,7 +207,7 @@ function Ensure-DirectoryExists {
     catch {
         Write-Host "An error occurred: $_" -ForegroundColor Red
     }
-} # End: Ensure-DirectoryExists
+}
 
 function SetupDirectories {
 
@@ -189,32 +220,68 @@ Ensure-DirectoryExists -DirectoryPath .\bin
 Ensure-DirectoryExists -DirectoryPath .\log
 
 Ensure-DirectoryExists -DirectoryPath .\pub
-} # End: SetupDirectories
+}
 
-function Ensure-ScriptSetup {
+function Create-ScriptShortcut {
     [CmdletBinding()]
     param (
-        [Parameter(Mandatory=$false)]
-        [string]$ExpectedDirectory = "C:\xTekFolder\Hosts-Script"
+        [string]$ScriptPath = "C:\xTekFolder\Hosts-Script\HostsDnsBlocklist.ps1",
+        [string]$ShortcutName = "HostsDnsBlocklist",
+        [string]$DesktopPath = [Environment]::GetFolderPath("Desktop")
     )
 
-    try {
-        # Get the current directory
-        $currentDirectory = Get-Location
+    # Validate that the script exists
+    if (-not (Test-Path -Path $ScriptPath)) {
+        Write-Error "The script file at '$ScriptPath' does not exist."
+        return
+    }
 
-        # Check if the current directory matches the expected directory
-        if ($currentDirectory.Path -ne $ExpectedDirectory) {
-            Write-Host "Current directory is not '$ExpectedDirectory'. Calling SetupDirectories..." -ForegroundColor Yellow
-            SetupDirectories
-        }
-        else {
-            Show-TelemetryBlockingMenu
-        }
+    # Define the shortcut path
+    $ShortcutPath = Join-Path -Path $DesktopPath -ChildPath "$ShortcutName.lnk"
+
+    # Command to run the script with execution policy bypass and elevated privileges
+    $PowerShellCommand = "powershell.exe -NoProfile -ExecutionPolicy Bypass -File `"$ScriptPath`""
+
+    # Use Windows Script Host to create the shortcut
+    $WScriptShell = New-Object -ComObject WScript.Shell
+    $Shortcut = $WScriptShell.CreateShortcut($ShortcutPath)
+    $Shortcut.TargetPath = "powershell.exe"
+    $Shortcut.Arguments = "-NoProfile -ExecutionPolicy Bypass -File `"$ScriptPath`""
+    $Shortcut.WorkingDirectory = [System.IO.Path]::GetDirectoryName($ScriptPath)
+    $Shortcut.IconLocation = "powershell.exe,0"  # Use PowerShell icon
+    $Shortcut.Description = "Shortcut to run HostsDnsBlocklist with elevated privileges"
+    $Shortcut.Save()
+
+    # Set the shortcut to always run as administrator
+    $ShellLink = (New-Object -ComObject Shell.Application).Namespace($DesktopPath).ParseName("$ShortcutName.lnk").GetLink
+    $ShellLink.SetShowCommand(3)  # Run as administrator
+    $ShellLink.Save()
+
+    Write-Output "Shortcut created at: $ShortcutPath"
+}
+
+function Check-ScriptSetup {
+    [CmdletBinding()]
+    param ()
+
+    # Get the current directory
+    $CurrentDirectory = Get-Location
+
+    # Define the target directory
+    $TargetDirectory = "C:\xTekFolder\Hosts-Script"
+
+    # Check if the current directory matches the target directory
+    if ($CurrentDirectory.Path -eq $TargetDirectory) {
+        Show-TelemetryBlockingMenu
+        return $true
+    } else {
+        SetupDirectories
+        Create-ScriptShortcut
+        Check-CurrentDirectory
+        return $false
     }
-    catch {
-        Write-Host "An error occurred in Ensure-CurrentDirectory: $_" -ForegroundColor Red
-    }
-} # End: Ensure-ScriptSetup
+}
+
 
 function Get-LineFromOnlineFile {
     param (
@@ -1125,4 +1192,4 @@ Function MenuOption3 {
 
 Set-GlobalVarables
 
-Ensure-ScriptSetup
+Check-ScriptSetup
