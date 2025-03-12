@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<options>
+      <!-- ******************************************************************************* -->
+      <!--   This file is created by and frequently overwritten by the SCC Application.  * -->
+      <!--                     Manual editing is not recommended.                        * -->
+      <!-- ******************************************************************************* -->
+      <!-- *********** SCC Configuration Profile Options ***************** -->
+      <sccConfigProfile>default</sccConfigProfile>
+      <sccConfigProfileMetaData>Last Updated: 2025-03-12T06:19:40
+Content Enabled:  8 of 23
+Scan Type: local
+Results Directory:  Custom Directory: C:\Security\Security Compliance Scan Results
+Tailoring and Manual Questions: Installation Directory (default)
+</sccConfigProfileMetaData>
+      <selectedConfigProfile></selectedConfigProfile>
+      <!-- *********** General Scanning Options ***************** -->
+      <reviewType>local</reviewType>
+      <offlineConfigPath></offlineConfigPath>
+      <!-- *********** Remote Scanning Options (Windows Only) ***************** -->
+      <hostName></hostName>
+      <hostFile></hostFile>
+      <multiRemoteMode>Host File</multiRemoteMode>
+      <remoteWindowsOU></remoteWindowsOU>
+      <remoteWMIEnabled>1</remoteWMIEnabled>
+      <alternateWMICredentials>0</alternateWMICredentials>
+      <!-- *********** SCAP Processing Options ***************** -->
+      <ignoreCPEOVALResults>0</ignoreCPEOVALResults>
+      <answerOCILwithSCAP>1</answerOCILwithSCAP>
+      <warnMissingOCILResults>1</warnMissingOCILResults>
+      <filterSCAPContentPerFamily>1</filterSCAPContentPerFamily>
+      <downloadExternalFiles>1</downloadExternalFiles>
+      <forceOVAL510>0</forceOVAL510>
+      <saveResultsForNotApplicableContent>0</saveResultsForNotApplicableContent>
+      <!-- *********** OVAL Processing Options ***************** -->
+      <ignoreRemoteFileSystems>1</ignoreRemoteFileSystems>
+      <ignoreCase>0</ignoreCase>
+      <itemCreationThresholdEnabled>0</itemCreationThresholdEnabled>
+      <itemCreationThreshold>50000</itemCreationThreshold>
+      <!-- *********** OVAL Processing Options (UNIX Only) ***************** -->
+      <maskPasswords>1</maskPasswords>
+      <useGetpwent>0</useGetpwent>
+      <ignoreFileExtendedACL>1</ignoreFileExtendedACL>
+      <!-- *********** OVAL Processing Options (Windows Only) ***************** -->
+      <onlyCollectSecurityPrinciplesThatHavePrivilegesAssigned>1</onlyCollectSecurityPrinciplesThatHavePrivilegesAssigned>
+      <!-- *********** OCIL Processing Options ***************** -->
+      <sortOCILQuestionsByDISACAT>1</sortOCILQuestionsByDISACAT>
+      <customManualQuestionAutoAnswerDirectoryValue>0</customManualQuestionAutoAnswerDirectoryValue>
+      <customManualQuestionAutoAnswerDirectory></customManualQuestionAutoAnswerDirectory>
+      <backupManualQuestionResults>1</backupManualQuestionResults>
+      <ignoreManualQuestionVersionChangesOnUpgrade>1</ignoreManualQuestionVersionChangesOnUpgrade>
+      <!-- *********** Scan Reporting Options ***************** -->
+      <allSettingsHTMLReport>1</allSettingsHTMLReport>
+      <allSettingsTextReport>0</allSettingsTextReport>
+      <nonComplianceHTMLReport>1</nonComplianceHTMLReport>
+      <nonComplianceTextReport>0</nonComplianceTextReport>
+      <allSettingsSummaryHTMLReport>0</allSettingsSummaryHTMLReport>
+      <allSettingsSummaryTextReport>0</allSettingsSummaryTextReport>
+      <nonComplianceSummaryHTMLReport>0</nonComplianceSummaryHTMLReport>
+      <nonComplianceSummaryTextReport>0</nonComplianceSummaryTextReport>
+      <sortReportsBySeverity>1</sortReportsBySeverity>
+      <limitCollectedItemsInReports>1</limitCollectedItemsInReports>
+      <maxOVALCollectedItemsDefPass>50</maxOVALCollectedItemsDefPass>
+      <maxOVALCollectedItemsDefFail>100</maxOVALCollectedItemsDefFail>
+      <!-- *********** XML Results Options ***************** -->
+      <keepXCCDFXML>1</keepXCCDFXML>
+      <maxOVALCollectedItemsPerXCCDFResult>100</maxOVALCollectedItemsPerXCCDFResult>
+      <keepOVALXML>0</keepOVALXML>
+      <keepOCILXML>1</keepOCILXML>
+      <keepARFXML>0</keepARFXML>
+      <saveDISACKL>1</saveDISACKL>
+      <cklReportStyle>0</cklReportStyle>
+      <CKLMarking>CUI</CKLMarking>
+      <CKLClassification>UNCLASSIFIED</CKLClassification>
+      <primaryIPAddressPrefix></primaryIPAddressPrefix>
+      <keepCPEXML>0</keepCPEXML>
+      <!-- *********** Summary Viewer Options ***************** -->
+      <enableSummaryViewer>1</enableSummaryViewer>
+      <summaryViewerMaxReports>50000</summaryViewerMaxReports>
+      <summaryViewerSort1>Session</summaryViewerSort1>
+      <summaryViewerSort2>Stream</summaryViewerSort2>
+      <summaryViewerSort3>Host</summaryViewerSort3>
+      <!-- *********** Scan Session Options ***************** -->
+      <enableScanSessionDB>1</enableScanSessionDB>
+      <openWithSCC>1</openWithSCC>
+      <!-- *********** Logging Options ***************** -->
+      <keepScreenLogs>0</keepScreenLogs>
+      <debugEnabled>0</debugEnabled>
+      <suppress_warnings>0</suppress_warnings>
+      <!-- *********** Output Options ***************** -->
+      <sharedOptions>1</sharedOptions>
+      <userResultsDirectory>C:\Security\Security Compliance Scan Results</userResultsDirectory>
+      <userResultsDirectoryValue>2</userResultsDirectoryValue>
+      <userConfigDirectory>C:\Users\winUSR\SCC\Config</userConfigDirectory>
+      <userConfigDirectoryValue>0</userConfigDirectoryValue>
+      <setRestrictedPermissions>1</setRestrictedPermissions>
+      <customPathLocal></customPathLocal>
+      <!-- *********** Output Subdirectory Options ***************** -->
+      <dirApplicationLogsEnabled>1</dirApplicationLogsEnabled>
+      <dirAllSessionsEnabled>1</dirAllSessionsEnabled>
+      <dirSessionEnabled>1</dirSessionEnabled>
+      <dirSessionResultsEnabled>1</dirSessionResultsEnabled>
+      <dirSessionLogsEnabled>1</dirSessionLogsEnabled>
+      <dirContentTypeEnabled>1</dirContentTypeEnabled>
+      <dirTargetNameEnabled>0</dirTargetNameEnabled>
+      <dirStreamNameEnabled>0</dirStreamNameEnabled>
+      <dirXMLEnabled>1</dirXMLEnabled>
+      <!-- *********** Output Filename Options ***************** -->
+      <fileTargetNameEnabled>1</fileTargetNameEnabled>
+      <fileTargetDNSDomainEnabled>0</fileTargetDNSDomainEnabled>
+      <fileSCCVersionEnabled>1</fileSCCVersionEnabled>
+      <fileTimestampEnabled>1</fileTimestampEnabled>
+      <fileContentVersionEnabled>1</fileContentVersionEnabled>
+      <!-- *********** Content Options ***************** -->
+      <newerContentInstall>1</newerContentInstall>
+      <contentDevModeSkipValidation>0</contentDevModeSkipValidation>
+      <validateContent>0</validateContent>
+      <validateContentOnInstall>1</validateContentOnInstall>
+      <validateDigitalSignature>1</validateDigitalSignature>
+      <failOnXMLDSig>1</failOnXMLDSig>
+      <validateXMLResults>0</validateXMLResults>
+      <!-- *********** SSH Result File Transfer Options ***************** -->
+      <sshEnabled>0</sshEnabled>
+      <deleteOnTransferSession>0</deleteOnTransferSession>
+      <sshServer></sshServer>
+      <sshPortNumber>22</sshPortNumber>
+      <sshConnectionType>1</sshConnectionType>
+      <username></username>
+      <sshUserPassword></sshUserPassword>
+      <sshPrivateKey></sshPrivateKey>
+      <sshUserKeyFile></sshUserKeyFile>
+      <sshKeyPassphrase></sshKeyPassphrase>
+      <sshServerDirectory></sshServerDirectory>
+      <sshHostKey></sshHostKey>
+      <!-- *********** Post Scan SCAP Summary Reporting Options ***************** -->
+      <summarySourceDirectory></summarySourceDirectory>
+      <summaryDestinationDirectory></summaryDestinationDirectory>
+      <openSummaryDestinationDirectory>1</openSummaryDestinationDirectory>
+      <computerListHistoricalHTMLReport>1</computerListHistoricalHTMLReport>
+      <computerListHistoricalExcelReport>1</computerListHistoricalExcelReport>
+      <computerListHTMLReport>1</computerListHTMLReport>
+      <computerListExcelReport>1</computerListExcelReport>
+      <siteSummaryHTMLReport>1</siteSummaryHTMLReport>
+      <siteSummaryNonComplianceHTMLReport>1</siteSummaryNonComplianceHTMLReport>
+      <siteSummaryExcelReport>1</siteSummaryExcelReport>
+      <siteSummaryNonComplianceExcelReport>1</siteSummaryNonComplianceExcelReport>
+      <!-- *********** Post Scan SCAP Detailed Reporting Options ***************** -->
+      <detailSummarySourceDirectory></detailSummarySourceDirectory>
+      <detailSummaryDestinationDirectory></detailSummaryDestinationDirectory>
+      <openDetailSummaryDestinationDirectory>1</openDetailSummaryDestinationDirectory>
+      <!-- *********** Post Scan OVAL Detailed Reporting Options ***************** -->
+      <detailSummaryOVALSourceDirectory></detailSummaryOVALSourceDirectory>
+      <detailSummaryOVALDestinationDirectory></detailSummaryOVALDestinationDirectory>
+      <openDetailSummaryOVALDestinationDirectory>1</openDetailSummaryOVALDestinationDirectory>
+      <!-- *********** Post Scan SCAP/OVAL Shared Report Generation Options ***************** -->
+      <allSettingsHTMLReportDetailSummary>1</allSettingsHTMLReportDetailSummary>
+      <allSettingsTextReportDetailSummary>0</allSettingsTextReportDetailSummary>
+      <nonComplianceHTMLReportDetailSummary>1</nonComplianceHTMLReportDetailSummary>
+      <nonComplianceTextReportDetailSummary>0</nonComplianceTextReportDetailSummary>
+      <allSettingsSummaryHTMLReportDetailSummary>0</allSettingsSummaryHTMLReportDetailSummary>
+      <allSettingsSummaryTextReportDetailSummary>0</allSettingsSummaryTextReportDetailSummary>
+      <nonComplianceSummaryHTMLReportDetailSummary>0</nonComplianceSummaryHTMLReportDetailSummary>
+      <nonComplianceSummaryTextReportDetailSummary>0</nonComplianceSummaryTextReportDetailSummary>
+      <!-- *********** Threshold Options ***************** -->
+      <thresholdsEnabled>1</thresholdsEnabled>
+      <thresholdsProfile>default</thresholdsProfile>
+      <thresholdsUnlockCode></thresholdsUnlockCode>
+      <!-- *********** SCC Service Options (Windows Only) ***************** -->
+      <frequency>2</frequency>
+      <schedule>12</schedule>
+      <randomizeSSHTransfer>0</randomizeSSHTransfer>
+      <randomizeValue>300</randomizeValue>
+      <timeout>86400</timeout>
+      <lastServiceScan>0</lastServiceScan>
+      <nextServiceScan>0</nextServiceScan>
+      <!-- *********** WMI/SSH Remote Scanning Options ***************** -->
+      <remoteScanHostCooldown>30</remoteScanHostCooldown>
+      <remoteBaseLocation_unix>/opt</remoteBaseLocation_unix>
+      <remoteStartupTimeout>5</remoteStartupTimeout>
+      <remoteMaxThreads>30</remoteMaxThreads>
+      <remoteMaxThreads32>10</remoteMaxThreads32>
+      <remoteSSHAppWhitelist>0</remoteSSHAppWhitelist>
+      <!-- *********** Updates Options ***************** -->
+      <httpProxyType>0</httpProxyType>
+      <httpProxyURL></httpProxyURL>
+      <appCheckForUpdates>0</appCheckForUpdates>
+      <appUpdateCheckFrequency>20</appUpdateCheckFrequency>
+      <appUpdateLastCheck>0</appUpdateLastCheck>
+      <appUpdateURL>https://raw.githubusercontent.com/DISA-STIGS/DISA-STIGS.github.io/master/scc_release.xml</appUpdateURL>
+      <contentCheckForUpdates>0</contentCheckForUpdates>
+      <contentUpdateCheckFrequency>5</contentUpdateCheckFrequency>
+      <contentUpdateLastCheck>0</contentUpdateLastCheck>
+      <includeDraftContent>0</includeDraftContent>
+      <httpIgnoreSSLErrors>0</httpIgnoreSSLErrors>
+      <contentRepository>https://raw.githubusercontent.com/DISA-STIGS/DISA-STIGS.github.io/master/niwc-content-repository.xml</contentRepository>
+      <!-- *********** Developer Options: (Logging) ***************** -->
+      <debugExcludeDateTime>0</debugExcludeDateTime>
+      <debugTraceEnabled>0</debugTraceEnabled>
+      <maxLogFileSize>50</maxLogFileSize>
+      <!-- *********** Developer Options: (Misc Thresholds) ***************** -->
+      <maximumRecentReports>24</maximumRecentReports>
+      <freeSpaceThreshold>200</freeSpaceThreshold>
+      <validationThreshold>30</validationThreshold>
+      <externalCmdTimeout>60</externalCmdTimeout>
+      <!-- *********** Internal Options - Do Not Edit ***************** -->
+      <version>5.10.1</version>
+      <timeStamp>2025-03-12T06:19:40</timeStamp>
+      <newInstall>0</newInstall>
+      <registeredEmail></registeredEmail>
+      <registeredCode></registeredCode>
+      <load>2</load>
+      <scan>1</scan>
+      <expignore>0</expignore>
+      <showSeverityRoleTailoring>0</showSeverityRoleTailoring>
+      <scap12DBFilepath>C:\Security\Security Compliance Checker\scc_5.10.1\Resources\Content\DB\SCC_SCAP12_Content.db</scap12DBFilepath>
+      <iaControlDBFilepath></iaControlDBFilepath>
+      <nvdcceFile>nvdcce-0.1-feed.xml</nvdcceFile>
+      <cciFile>U_CCI_List.xml</cciFile>
+      <xCoordinate>0</xCoordinate>
+      <yCoordinate>0</yCoordinate>
+      <windowHeight>0</windowHeight>
+      <windowWidth>0</windowWidth>
+      <contents>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_Adobe_Acrobat_Reader_DC_Continuous_V2R2_STIG_SCAP_1-3_Benchmark</stream>
+                  <family>Windows</family>
+                  <benchmarkID>Adobe_Acrobat_Reader_DC_Continuous_Track_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.2.3 Date: 2023-08-04, based on Release: 2.2 Benchmark Date: 27 Oct 2022</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_Adobe_Acrobat_Reader_DC_Continuous_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV3.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>832a0043e7f7b001f52e9e57df591b0087aeecbd11bc3e092c43c0cbf9f1b935</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Adobe Acrobat Reader DC Continuous Track STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Adobe Acrobat Reader DC Continuous Track</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2021-06-22)</status>
+                  <version>2.2.3</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_Adobe_Acrobat_Reader_DC_Continuous_V2R2_STIG_SCAP_1-3_Benchmark-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11.2">scap_mil.disa.stig.fso_comp_U_Adobe_Acrobat_Reader_DC_Continuous_V2R2_STIG_SCAP_1-3_Benchmark-oval.xml</oval>
+                  </oval_components>
+                  <date>2021-06-22</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785225</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>1</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_Cisco_IOS-XE_Router_NDM_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8</stream>
+                  <family>CiscoIOS</family>
+                  <benchmarkID>Cisco_IOS-XE_Router_NDM_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 3.2.8 Date: 2024-10-28, based on Benchmark Date: 24 Oct 2024</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_Cisco_IOS-XE_Router_NDM_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>bd1041788721a371913240afca93aac3c8573f35484ee2cabf369a658e79ed6f</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Cisco IOS XE Router NDM STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Cisco IOS-XE</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-08-22)</status>
+                  <version>3.2.8</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_Cisco_IOS-XE_Router_NDM_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_Cisco_IOS-XE_Router_NDM_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-08-22</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785226</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_Cisco_IOS-XE_Router_RTR_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8</stream>
+                  <family>CiscoIOS</family>
+                  <benchmarkID>Cisco_IOS-XE_Router_RTR_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 3.2.8 Date: 2024-10-28, based on Benchmark Date: 24 Oct 2024</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_Cisco_IOS-XE_Router_RTR_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>fcb841537c4caff20a8cb8714bfabfa76708c7181c69063cb4d12e38b2b67780</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Cisco IOS XE Router RTR STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Cisco IOS-XE</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-08-22)</status>
+                  <version>3.2.8</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_Cisco_IOS-XE_Router_RTR_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_Cisco_IOS-XE_Router_RTR_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-08-22</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785226</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_Google_Chrome_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV8</stream>
+                  <family>Windows</family>
+                  <benchmarkID>Google_Chrome_Current_Windows</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.10.8 Date: 2024-10-28, based on Benchmark Date: 24 Oct 2024</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_Google_Chrome_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV8.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>d4e2b021cf724039dc6a2f961b66bfc4c74384f3d21497b02bc446d565dd743d</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Google Chrome Current Windows STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Google Chrome</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-08-22)</status>
+                  <version>2.10.8</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_Google_Chrome_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV8-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_Google_Chrome_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV8-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-08-22</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785227</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_IE11_V2R6_STIG_SCAP_1-3_Benchmark</stream>
+                  <family>Windows</family>
+                  <benchmarkID>IE_11_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.6.8 Date: 2024-02-01, based on Release: 2.6 Benchmark Date: 24 Jan 2024</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_IE11_V2R6_STIG_SCAP_1-3_Benchmark-enhancedV8.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>a894b4a2f79ad2d99b0332d75b91d59a082210d2a53f5b824e816d34128517a0</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Internet Explorer 11 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Internet Explorer 11</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2023-12-01)</status>
+                  <version>2.6.8</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_IE11_V2R6_STIG_SCAP_1-3_Benchmark-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11.2">scap_mil.disa.stig.fso_comp_U_MS_IE11_V2R6_STIG_SCAP_1-3_Benchmark-oval.xml</oval>
+                  </oval_components>
+                  <date>2023-12-01</date>
+                  <xmlSchemaValidationDate>1741785230</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_IIS_10-0_Server_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9</stream>
+                  <family>Windows</family>
+                  <benchmarkID>IIS_10-0_Server_STIG</benchmarkID>
+                  <releaseInfo>Release: 3.2.9, Benchmark Date: 24 October 2024. Based on DISA STIG Manual V3R2</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_IIS_10-0_Server_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.xml</filepath>
+                  <selectedProfile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>fb55bbbff58264863aa6e1540b27e46e082737ff9c0c03c1c523b872d24a09b4</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft IIS 10.0 Server STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft IIS 10.0</platform>
+                  <publisher>NIWC</publisher>
+                  <description>This SCAP Benchmark was created based on the DISA Microsoft IIS 10.0 Server Security Technical Implementation Guide, Version 3, Release 2, by NIWC Atlantic. For questions/issues with the content please contact: scc.fct@navy.mil</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-10-24)</status>
+                  <version>3.2.9</version>
+                  <xccdf>scap_navy.navwar.niwcatlantic.scc_comp_U_MS_IIS_10-0_Server_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11.2">scap_navy.navwar.niwcatlantic.scc_comp_U_MS_IIS_10-0_Server_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-10-24</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785231</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_IIS_10-0_Site_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV9</stream>
+                  <family>Windows</family>
+                  <benchmarkID>IIS_10-0_Site_STIG</benchmarkID>
+                  <releaseInfo>Release: 2.10.9, Benchmark Date: 24 October 2024. Based on DISA STIG Manual V2R10</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_IIS_10-0_Site_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV9.xml</filepath>
+                  <selectedProfile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>676881502e24441181868f32742db769ea67d3a82c6fb76ac71aa5fcaabeef76</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft IIS 10.0 Site STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft IIS 10.0</platform>
+                  <publisher>NIWC</publisher>
+                  <description>This SCAP Benchmark was created based on the DISA Microsoft IIS 10.0 Site Security Technical Implementation Guide, Version 2, Release 10, by NIWC Atlantic. For questions/issues with the content please contact: scc.fct@navy.mil</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-10-24)</status>
+                  <version>2.10.9</version>
+                  <xccdf>scap_navy.navwar.niwcatlantic.scc_comp_U_MS_IIS_10-0_Site_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV9-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11.2">scap_navy.navwar.niwcatlantic.scc_comp_U_MS_IIS_10-0_Site_V2R10_STIG_SCAP_1-3_Benchmark-enhancedV9-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-10-24</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785232</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV5</stream>
+                  <family>Windows</family>
+                  <benchmarkID>IIS_8-5_Server_STIG</benchmarkID>
+                  <releaseInfo>Release: 2.7.5, Benchmark Date: 23 October 2023. Based on DISA STIG Manual V2R7</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV5.xml</filepath>
+                  <selectedProfile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>f5aec1b0d04288f8c85a7a955dcfb0605f954fe2690ed0c2f14b8c02fb5c8452</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft IIS 8.5 Server STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft IIS 8.5</platform>
+                  <publisher>NIWC</publisher>
+                  <description>This SCAP Benchmark was created based on the DISA Microsoft IIS 8.5 Server Security Technical Implementation Guide, Version 2, Release 7, by NIWC Atlantic. For questions/issues with the content please contact: scc.fct@navy.mil</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2023-10-23)</status>
+                  <version>2.7.5</version>
+                  <xccdf>scap_navy.navwar.niwcatlantic.scc_comp_U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV5-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11.2">scap_navy.navwar.niwcatlantic.scc_comp_U_MS_IIS_8-5_Server_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV5-oval.xml</oval>
+                  </oval_components>
+                  <date>2023-10-23</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785232</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-3_Benchmark-enhancedV5</stream>
+                  <family>Windows</family>
+                  <benchmarkID>IIS_8-5_Site_STIG</benchmarkID>
+                  <releaseInfo>Release: 2.9.5, Benchmark Date: 23 October 2023. Based on DISA STIG Manual V2R9</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-3_Benchmark-enhancedV5.xml</filepath>
+                  <selectedProfile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>60030b902e8a11c9e9c7c229d63266bc15bf5ad88b847515da384fcd8fbb9906</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft IIS 8.5 Site STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft IIS 8.5</platform>
+                  <publisher>NIWC</publisher>
+                  <description>This SCAP Benchmark was created based on the DISA Microsoft IIS 8.5 Site Security Technical Implementation Guide, Version 2, Release 9, by NIWC Atlantic. For questions/issues with the content please contact: scc.fct@navy.mil</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2023-10-23)</status>
+                  <version>2.9.5</version>
+                  <xccdf>scap_navy.navwar.niwcatlantic.scc_comp_U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-3_Benchmark-enhancedV5-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11.2">scap_navy.navwar.niwcatlantic.scc_comp_U_MS_IIS_8-5_Site_V2R9_STIG_SCAP_1-3_Benchmark-enhancedV5-oval.xml</oval>
+                  </oval_components>
+                  <date>2023-10-23</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785233</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_OneDrive_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV4</stream>
+                  <family>Windows</family>
+                  <benchmarkID>Microsoft_OneDrive_STIG</benchmarkID>
+                  <releaseInfo>Release: 2.2.3, Benchmark Date: 23 May 2023. Based on DISA STIG Manual V2R2</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_OneDrive_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV4.xml</filepath>
+                  <selectedProfile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>aa744f28aec736927752f4ed00498d28cb47f4c3cbb63d997671d9705eafa447</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft OneDrive STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft OneDrive</platform>
+                  <publisher>NIWC</publisher>
+                  <description>This SCAP Benchmark was created based on the DISA Microsoft OneDrive Security Technical Implementation Guide, Version 2, Release 2, by NIWC Atlantic. For questions/issues with the content please contact: scc.fct@navy.mil</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2023-05-23)</status>
+                  <version>2.3.4</version>
+                  <xccdf>scap_navy.navwar.niwcatlantic.scc_comp_U_MS_OneDrive_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV4-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11.2">scap_navy.navwar.niwcatlantic.scc_comp_U_MS_OneDrive_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV4-oval.xml</oval>
+                  </oval_components>
+                  <date>2023-05-23</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785235</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>1</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Windows_11_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV8</stream>
+                  <family>Windows</family>
+                  <benchmarkID>Microsoft_Windows_11_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.2.8 Date: 2024-11-12, based on Benchmark Date: 15 Nov 2024</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Windows_11_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV8.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>4e7be0bcb5b0d7549289b5abf4bc35267fd5c95af332a724e83ec2790615c097</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Windows 11 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Windows 11</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-09-12)</status>
+                  <version>2.2.8</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Windows_11_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV8-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_MS_Windows_11_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV8-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-09-12</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785242</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>1</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MOZ_Firefox_Windows_V6R5_STIG_SCAP_1-2_Benchmark-enhancedV5</stream>
+                  <family>Windows</family>
+                  <benchmarkID>MOZ_Firefox_Windows</benchmarkID>
+                  <releaseInfo>Enhanced Content 6.5.5 Date: 2023-10-24, based on Release: 6.5 Benchmark Date: 25 Oct 2023</releaseInfo>
+                  <scapVersion>1.2</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MOZ_Firefox_Windows_V6R5_STIG_SCAP_1-3_Benchmark-enhancedV5.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>3b7ea9a51920a65241847767f465bce425bdcb8b4239b3caa538fb7c3b06f289</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Mozilla Firefox for Windows STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Mozilla Firefox</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2023-06-05)</status>
+                  <version>6.5.5</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MOZ_Firefox_Windows_V6R5_STIG_SCAP_1-2_Benchmark-enhancedV5-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.10">scap_mil.disa.stig.fso_comp_U_MOZ_Firefox_Windows_V6R5_STIG_SCAP_1-2_Benchmark-enhancedV5-oval.xml</oval>
+                  </oval_components>
+                  <date>2023-06-05</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785228</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-2_Benchmark-enhancedV6</stream>
+                  <family>Windows</family>
+                  <benchmarkID>MS_Defender_Antivirus</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.5.6 Date: 2024-02-01, based on Release: 2.5 Benchmark Date: 25 Jan 2024</releaseInfo>
+                  <scapVersion>1.2</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-3_Benchmark-enhancedV6.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>eea4f8e9db32ecbcd834bcb06068869626f781a24f7b29540a43afa03f4a1b66</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Defender Antivirus STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Defender Antivirus</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2022-04-08)</status>
+                  <version>2.5.6</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-2_Benchmark-enhancedV6-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.10">scap_mil.disa.stig.fso_comp_U_MS_Defender_Antivirus_V2R5_STIG_SCAP_1-2_Benchmark-enhancedV6-oval.xml</oval>
+                  </oval_components>
+                  <date>2022-04-08</date>
+                  <xmlSchemaValidationDate>1741785228</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>1</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_DotNet_Framework_4-0_V2R2_STIG_SCAP_1-2_Benchmark-enhancedV5</stream>
+                  <family>Windows</family>
+                  <benchmarkID>MS_Dot_Net_Framework</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.2.5 Date: 2024-05-22, based on Release: 2.2 Benchmark Date: 26 Jan 2023</releaseInfo>
+                  <scapVersion>1.2</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_DotNet_Framework_4-0_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV5.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>4f8dd7fa637e511264624c42e0968d52594a1e168fc443d4823b4450cc1f8393</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft DotNet Framework 4.0 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft .NET Framework 4.0</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DoD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2020-12-11)</status>
+                  <version>2.2.5</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_DotNet_Framework_4-0_V2R2_STIG_SCAP_1-2_Benchmark-enhancedV5-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.10">scap_mil.disa.stig.fso_comp_U_MS_DotNet_Framework_4-0_V2R2_STIG_SCAP_1-2_Benchmark-enhancedV5-oval.xml</oval>
+                  </oval_components>
+                  <date>2020-12-11</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785228</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>1</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Edge_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV7</stream>
+                  <family>Windows</family>
+                  <benchmarkID>MS_Edge_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.2.7 Date: 2024-11-12, based on Benchmark Date: 24 Oct 2024</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Edge_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV7.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>3842e4905147a962aeafa5352dfab713d153df8e14de18788eaab26da910f859</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Edge STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Edge</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-09-13)</status>
+                  <version>2.2.7</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Edge_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV7-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_MS_Edge_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV7-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-09-13</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785229</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>1</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Office_365_ProPlus_V1R1_STIG_SCAP_1-3_Benchmark-enhancedV1</stream>
+                  <family>Windows</family>
+                  <benchmarkID>MS_Office_365_ProPlus_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 1.1.1 Date: 2024-08-05, based on Release: 1.1 Benchmark Date: 24 Jul 2024</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Office_365_ProPlus_V1R1_STIG_SCAP_1-3_Benchmark-enhancedV1.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>d379aff789e1a62643074f603b42b851b7b6b2500a9c361da014915dd10db9f4</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Office 365 ProPlus STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Office 365 ProPlus</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-06-10)</status>
+                  <version>1.1.1</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Office_365_ProPlus_V1R1_STIG_SCAP_1-3_Benchmark-enhancedV1-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_MS_Office_365_ProPlus_V1R1_STIG_SCAP_1-3_Benchmark-enhancedV1-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-06-10</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785234</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>1</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_SQL_Server_2016_Database_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4</stream>
+                  <family>Windows</family>
+                  <benchmarkID>MS_SQL_Server_2016_Database_STIG</benchmarkID>
+                  <releaseInfo>Release: 3.2.4, Benchmark Date: 25 Oct 2024. Based on DISA STIG Manual V3R2</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_SQL_Server_2016_Database_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4.xml</filepath>
+                  <selectedProfile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>ea257ea9821aa77fb461259fff6c9919499d008444e009bedbb97d9228dfa602</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>MS SQL Server 2016 Database STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>SQL Server 2016</platform>
+                  <publisher>NIWC</publisher>
+                  <description>This SCAP Benchmark was created based on the DISA MS SQL Server 2016 Database Security Technical Implementation Guide, Version 3, Release 2, by NIWC Atlantic. For questions/issues with the content please contact: scc.fct@navy.mil</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-10-25)</status>
+                  <version>3.2.4</version>
+                  <xccdf>scap_navy.navwar.niwcatlantic.scc_comp_U_MS_SQL_Server_2016_Database_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11.2">scap_navy.navwar.niwcatlantic.scc_comp_U_MS_SQL_Server_2016_Database_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-10-25</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785236</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_SQL_Server_2016_Instance_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4</stream>
+                  <family>Windows</family>
+                  <benchmarkID>MS_SQL_Server_2016_Instance_STIG</benchmarkID>
+                  <releaseInfo>Release: 3.2.4, Benchmark Date: 25 Oct 2024. Based on DISA STIG Manual V3R2</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_SQL_Server_2016_Instance_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4.xml</filepath>
+                  <selectedProfile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</profile>
+                        <profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_navy.navwar.niwcatlantic.scc_profile_MAC-3_Sensitive</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>3d4e4d5608f083d601be03471f9a192288a24bcc84e9c3b723182aa021c1d717</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>MS SQL Server 2016 Instance STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>SQL Server 2016</platform>
+                  <publisher>NIWC</publisher>
+                  <description>This SCAP Benchmark was created based on the DISA MS SQL Server 2016 Database Security Technical Implementation Guide, Version 3, Release 2, by NIWC Atlantic. For questions/issues with the content please contact: scc.fct@navy.mil</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-10-25)</status>
+                  <version>3.2.4</version>
+                  <xccdf>scap_navy.navwar.niwcatlantic.scc_comp_U_MS_SQL_Server_2016_Instance_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11.2">scap_navy.navwar.niwcatlantic.scc_comp_U_MS_SQL_Server_2016_Instance_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV4-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-10-25</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785237</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Windows_10_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8</stream>
+                  <family>Windows</family>
+                  <benchmarkID>MS_Windows_10_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 3.2.8 Date: 2024-11-12, based on 2024-11-12</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Windows_10_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>e36d2aa08a1dad91486bb9e9139807e35165640de8c73f7f45a71292c6a8edf2</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Windows 10 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Windows 10</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-09-16)</status>
+                  <version>3.2.8</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Windows_10_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_MS_Windows_10_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV8-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-09-16</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785239</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Windows_Server_2022_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV9</stream>
+                  <family>Windows</family>
+                  <benchmarkID>MS_Windows_Server_2022_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.2.9 Date: 2024-10-28, based on 2024-10-28</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Windows_Server_2022_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV9.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>fe5f4d2e3d7750b06f138116afc53768955cd6ddb97a0e5cd7ce85ba22457a07</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Windows Server 2022 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Windows Server 2022</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-09-16)</status>
+                  <version>2.2.9</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Windows_Server_2022_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV9-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_MS_Windows_Server_2022_V2R2_STIG_SCAP_1-3_Benchmark-enhancedV9-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-09-16</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785263</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-2_Benchmark-enhancedV5</stream>
+                  <family>Windows</family>
+                  <benchmarkID>Windows_2012_DC_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 3.6.5 Date: 2023-11-02, based on Release: 3.6 Benchmark Date: 09 Nov 2023</releaseInfo>
+                  <scapVersion>1.2</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-3_Benchmark-enhancedV5.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>8e424f2d5be08f76886229b4a883c67c2bef4a722e482ed0fa780d75c16c3d72</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Windows Server 2012/2012 R2 Domain Controller STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform></platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2023-08-21)</status>
+                  <version>3.6.5</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-2_Benchmark-enhancedV5-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.10">scap_mil.disa.stig.fso_comp_U_MS_Windows_2012_and_2012_R2_DC_V3R6_STIG_SCAP_1-2_Benchmark-enhancedV5-oval.xml</oval>
+                  </oval_components>
+                  <date>2023-08-21</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785246</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-2_Benchmark-enhancedV5</stream>
+                  <family>Windows</family>
+                  <benchmarkID>Windows_2012_MS_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 3.6.5 Date: 2023-11-02, based on Release: 3.6 Benchmark Date: 09 Nov 2023</releaseInfo>
+                  <scapVersion>1.2</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-3_Benchmark-enhancedV5.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>db4b05ad859f682138625786506549d0f60ce3c5d0dcab1d1a5e253c2f7c481b</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Windows Server 2012/2012 R2 Member Server STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform></platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2023-08-21)</status>
+                  <version>3.6.5</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-2_Benchmark-enhancedV5-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.10">scap_mil.disa.stig.fso_comp_U_MS_Windows_2012_and_2012_R2_MS_V3R6_STIG_SCAP_1-2_Benchmark-enhancedV5-oval.xml</oval>
+                  </oval_components>
+                  <date>2023-08-21</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785251</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-2_Benchmark-enhancedV5</stream>
+                  <family>Windows</family>
+                  <benchmarkID>Windows_Firewall_with_Advanced_Security</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.3.5 Date: 2023-11-02, based on Release: 2.3 Benchmark Date: 09 Nov 2023</releaseInfo>
+                  <scapVersion>1.2</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-3_Benchmark-enhancedV5.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>c3b36c922e211977b5142992d5272778ec160dd29b1290af606cf623a4357ae3</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Windows Defender Firewall with Advanced Security STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Windows Defender Firewall</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2023-08-23)</status>
+                  <version>2.3.5</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-2_Benchmark-enhancedV5-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.10">scap_mil.disa.stig.fso_comp_U_MS_Windows_Defender_Firewall_V2R3_STIG_SCAP_1-2_Benchmark-enhancedV5-oval.xml</oval>
+                  </oval_components>
+                  <date>2023-08-23</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785253</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>1</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Windows_Server_2016_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV9</stream>
+                  <family>Windows</family>
+                  <benchmarkID>Windows_Server_2016_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 2.7.9 Date: 2024-10-28, based on Benchmark Date: 15 Nov 2024</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Windows_Server_2016_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV9.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>4800befe87d9a15029edb0a82bcb59c4fd6adfaf42c01b4a8989601949b668ca</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Windows Server 2016 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Windows Server 2016</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-08-27)</status>
+                  <version>2.7.9</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Windows_Server_2016_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV9-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_MS_Windows_Server_2016_V2R7_STIG_SCAP_1-3_Benchmark-enhancedV9-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-08-27</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785255</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+            <content>
+                  <stream>scap_navy.navwar.niwcatlantic.scc_datastream_U_MS_Windows_Server_2019_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9</stream>
+                  <family>Windows</family>
+                  <benchmarkID>Windows_Server_2019_STIG</benchmarkID>
+                  <releaseInfo>Enhanced Content 3.2.9 Date: 2024-10-28, based on Benchmark Date: 15 Nov 2024</releaseInfo>
+                  <scapVersion>1.3</scapVersion>
+                  <filepath>Resources\Content\SCAP12_Content\U_MS_Windows_Server_2019_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9.xml</filepath>
+                  <selectedProfile>xccdf_mil.disa.stig_profile_MAC-1_Classified</selectedProfile>
+                  <profiles>
+                        <profile>no_profile_selected</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Public</profile>
+                        <profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</profile>
+                        <profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</profile>
+                        <profile>xccdf_mil.disa.stig_profile_CAT_I_Only</profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-1_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-2_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Classified</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Public</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_MAC-3_Sensitive</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_Disable_Slow_Rules</original_profile>
+                        <original_profile>xccdf_mil.disa.stig_profile_CAT_I_Only</original_profile>
+                  </profiles>
+                  <xccdfTailoringEnabled>N</xccdfTailoringEnabled>
+                  <checksumSCAP12>ea558cdd2dea11313876e70ff71935d476fed1841506c6455ea33a1ede16d71c</checksumSCAP12>
+                  <installDate>2025-03-12</installDate>
+                  <title>Microsoft Windows Server 2019 STIG SCAP Benchmark - NIWC Enhanced with Manual Questions</title>
+                  <platform>Microsoft Windows Server 2019</platform>
+                  <publisher>DISA+NIWC</publisher>
+                  <description>This Security Technical Implementation Guide is published as a tool to improve the security of Department of Defense (DOD) information systems. The requirements are derived from the National Institute of Standards and Technology (NIST) 800-53 and related documents. Comments or proposed revisions to this document should be sent via email to the following address: disa.stig_spt@mail.mil.</description>
+                  <notice>Portions of this document were developed at Naval Information Warfare Center Atlantic by employees of the Federal Government in the course of their official duties. Pursuant to title 17 Section 105 of the United States Code this software is not subject to copyright protection and is in the public domain. The Government assumes no responsibility whatsoever for its use by other parties, and the software is provided "AS IS" without warranty or guarantee of any kind, express or implied, including, but not limited to, the warranties of merchantability and of fitness for a particular purpose. In no event shall the Government be liable for any claim, damages or other liability, whether in an action of contract, tort or other dealings in the software. The Government has no obligation hereunder to provide maintenance, support, updates, enhancements, or modifications. We would appreciate acknowledgement if the software is used. This software can be redistributed and/or modified freely provided that any derivative works bear some notice that they are derived from it, and any modified versions bear some notice that they have been modified.</notice>
+                  <status>accepted (2024-09-16)</status>
+                  <version>3.2.9</version>
+                  <xccdf>scap_mil.disa.stig.fso_comp_U_MS_Windows_Server_2019_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9-xccdf.xml</xccdf>
+                  <oval_components>
+                        <oval version="5.11">scap_mil.disa.stig.fso_comp_U_MS_Windows_Server_2019_V3R2_STIG_SCAP_1-3_Benchmark-enhancedV9-oval.xml</oval>
+                  </oval_components>
+                  <date>2024-09-16</date>
+                  <ocilVersion>2.0</ocilVersion>
+                  <xmlSchemaValidationDate>1741785259</xmlSchemaValidationDate>
+                  <xmlSchemaValidationResult>pass</xmlSchemaValidationResult>
+                  <xmldsigValidationDate>0</xmldsigValidationDate>
+                  <xmldsigStatus></xmldsigStatus>
+                  <enabled>0</enabled>
+                  <review>1</review>
+                  <resume>0</resume>
+                  <resumeFile></resumeFile>
+                  <applicableToAllTargets>0</applicableToAllTargets>
+            </content>
+      </contents>
+      <ovalContents></ovalContents>
+      <ocilContents></ocilContents>
+</options>
